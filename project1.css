@@ -4,6 +4,7 @@
 }
 body{
     background-color: rgba(54, 33, 33, 0.425);
+    width:100%;
 }
 .left_top{
     background-color: rgba(250, 235, 215, 0.788);
@@ -35,6 +36,22 @@ ul{
 li{
     margin:20px;
     padding:10px;
+    text-decoration: none;
+    background-color:blueviolet;
+    border:none;
+    border-radius: 10px;
+   
+a{
+    text-decoration: none;
+    font-size: 16px;
+     color: white;
+}
+}
+li a:hover{
+    background-color:rgb(217, 209, 224);
+    transition: 0.5s;
+    cursor: pointer;
+
 }
  button{
     background-color: brown;
