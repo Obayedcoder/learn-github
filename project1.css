@@ -47,7 +47,7 @@ a{
      color: white;
 }
 }
-li a:hover{
+a:hover{
     background-color:rgb(217, 209, 224);
     transition: 0.5s;
     cursor: pointer;
