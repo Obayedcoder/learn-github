@@ -6,14 +6,14 @@
 }
 body{
     display:flex;
-    justify-content: center;
+    /*justify-content: center;*/
     align-items: center;
     min-height: 100vh;
-    background-image:url(WhatsApp\ Image\ 2025-05-24\ at\ 12.23.13\ AM.jpeg);
+    min-width: 100vw;
+    background-image:url(becca-tapert-dO3qTKxwik0-unsplash.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     background-position: center;
-    background-color: rgba(0, 0, 0, 0.89);
 }
 header{
     position:fixed;
@@ -74,4 +74,31 @@ header{
 .navi .btn:hover{
     background-color: white;
     color: black;
+}
+.section_3{
+    border:1px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px;
+    margin: 10px 100px;
+    padding:10px;
+    height: 300px;
+    width:300px;
+    position:relative;
+    background-color:transparent;
+    backdrop-filter: blur(20px);
+      
+}
+ .blog{
+    text-align: center;
+    margin:20px 40px;
+    display: flex;
+    text-align: justify;
+ }
+h1{
+    text-align: left;
+    font-weight: 800;
+    font-size: 32;
+}
+.formal{
+    margin-left:400px;
 }
